@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
-  background: url('./background.jpg') bottom center;
+  /* background: url('./background.jpg') bottom center; */
+  background-color: #1F2937;
   background-size: cover;
 }
 
@@ -16,6 +17,8 @@ body,html {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 20px;
 }
 
 .key {
@@ -26,6 +29,8 @@ body,html {
   padding: 1rem .5rem;
   transition: all .07s ease;
   width: 10rem;
+  /* height: 200px; */
+  flex: auto;
   text-align: center;
   color: white;
   background: rgba(0,0,0,0.4);
@@ -34,8 +39,8 @@ body,html {
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #3882F6;
+  box-shadow: 0 0 1rem #3882F6;
 }
 
 kbd {
@@ -47,5 +52,5 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #3882F6;
 }
